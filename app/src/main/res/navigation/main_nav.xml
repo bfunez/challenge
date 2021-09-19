@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/blogFragment">
+
+    <fragment
+        android:id="@+id/blogFragment"
+        android:name="com.example.challenge.ui.blog.BlogFragment"
+        tools:layout="@layout/blog_fragment"
+        android:label="@string/blog">
+        <action
+            android:id="@+id/action_blogFragment_to_detailFragment"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:popUpTo="@id/blogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        tools:layout="@layout/map_fragment"
+        android:name="com.example.challenge.ui.map.MapFragment"
+        android:label="@string/map" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        tools:layout="@layout/detail_fragment"
+        android:name="com.example.challenge.ui.detail.DetailFragment"
+        android:label="@string/map" >
+        <argument
+            android:name="url"
+            app:argType="string"
+            app:nullable="false"/>
+    </fragment>
+
+</navigation>

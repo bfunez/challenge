@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#FFC107</color>
+    <color name="accent_color">#2196F3</color>
+    <color name="accent_color_darker">#195F97</color>
+    <color name="dark_primary_color">#FF9800</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="unselected">#757575</color>
+    <color name="spacer_color">#EDECEC</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

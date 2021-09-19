@@ -1,0 +1,10 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon leaving this because of an issue with places 2.4.0 https://issuetracker.google.com/issues/179604852?pli=1
+    }
+}
+rootProject.name = "Challenge"
+include ':app'

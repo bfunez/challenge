@@ -1,0 +1,9 @@
+Hi! tried to use Clean Architecture with MVVM, missing interactions and DI to reduce complexity.
+because of time there might be some issues with dialogs and location permissions edge cases that I had to leave.
+Imported the code for SingleLiveEvent to aid with MutableLiveData firing the same Article multiple times, referenced a page, but I had used this before.
+Image resources are from image Asset in Android studio
+No Dependency injection for this project :/
+
+add your Places key and Maps key on the strings.xml file there is a todo to remind
+
+Thanks for taking a look at this.

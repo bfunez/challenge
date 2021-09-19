@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Challenge</string>
+    <string name="maps_api_key">change me</string>
+    <string name="places_api_key">change me</string>
+    <string name="blog">Blog</string>
+    <string name="map">Map</string>
+    <string name="lorem_tile">Lorem Ipsum</string>
+    <string name="lorem_text">Learn how the property database is a key tool to connect homebuyers and sellers with up-to-date information about properties for sale.</string>
+    <string name="error">That is very weird, we can\'t get to the data, please check if you are connected to the internet.</string>
+    <string name="search_hint">Try a place, like Alajuela or City Mall</string>
+    <string name="you_are_here">You are here</string>
+    <string name="enable_location_services">Please enable your location services</string>
+    <string name="enable_location_services_message">Please enable your location services</string>
+    <string name="enable_now">Enable now</string>
+    <string name="no_place_found">No places found!</string>
+    <string name="no_place_found_message">No places were found with the query provided, please try again!</string>
+    <string name="ok_label">OK</string>
+    <string name="error_query_empty">The query is empty!</string>
+    <string name="empty_query_message">The query that you are trying to look for is empty, this is not allowed, please add some text!</string>
+    <string name="permissions_denied_label">Location permission denied</string>
+    <string name="permission_denied_message">Location permissions are needed in order to get your location and provide a better user experience.</string>
+</resources>

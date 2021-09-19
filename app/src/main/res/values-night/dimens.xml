@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="blog_item_padding5">5dp</dimen>
+</resources>

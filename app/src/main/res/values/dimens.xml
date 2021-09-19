@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="blog_item_side_margin">16dp</dimen>
+    <dimen name="blog_item_padding">10dp</dimen>
+    <dimen name="small_text_size">10sp</dimen>
+    <dimen name="blog_item_padding20">20dp</dimen>
+    <dimen name="blog_item_padding5">5dp</dimen>
+</resources>
