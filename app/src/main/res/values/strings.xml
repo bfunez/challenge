@@ -19,4 +19,5 @@
     <string name="empty_query_message">The query that you are trying to look for is empty, this is not allowed, please add some text!</string>
     <string name="permissions_denied_label">Location permission denied</string>
     <string name="permission_denied_message">Location permissions are needed in order to get your location and provide a better user experience.</string>
+    <string name="article">Blog Article</string>
 </resources>

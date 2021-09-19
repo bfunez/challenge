@@ -29,7 +29,7 @@
         android:id="@+id/detailFragment"
         tools:layout="@layout/detail_fragment"
         android:name="com.example.challenge.ui.detail.DetailFragment"
-        android:label="@string/map" >
+        android:label="@string/article" >
         <argument
             android:name="url"
             app:argType="string"
