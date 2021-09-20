@@ -4,6 +4,8 @@ Imported the code for SingleLiveEvent to aid with MutableLiveData firing the sam
 Image resources are from image Asset in Android studio
 No Dependency injection for this project :/
 
+Important to run use the latest Android studio or at least Artic Fox 2020.3.1 and Gradle JDK 11.0.10
+
 add your Places key and Maps key on the strings.xml file there is a todo to remind
 
 Thanks for taking a look at this.
